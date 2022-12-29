@@ -6,8 +6,10 @@
 /*
  * main - entry point
  *
- * return : 0
- **/
+ * Description: print value of n satus; zero, positive or negative
+ *
+ * Return : Always return when success 0
+ */
 
 int main(void)
 {
@@ -18,11 +20,11 @@ int main(void)
 
 	/* my code*/
 	if (n > 0)
-		printf("%d  is positive ", n);
+		printf("%i is positive ", n);
 	else if (n < 0)
-		printf("%d  is negative ", n);
+		printf("%i is negative ", n);
 	else
-		printf("%d  is zero ", n);
+		printf("%i is zero ", n);
 
 	return (0);
 }
