@@ -3,12 +3,10 @@
 #include <time.h>
 
 
-/*
- * main - entry point
+/**
+ * main - Entry point
  *
- * Description: print value of n satus; zero, positive or negative
- *
- * Return : Always return when success 0
+ * Return : Always 0 when success
  */
 
 int main(void)
