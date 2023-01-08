@@ -22,7 +22,13 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		cents = atoi(argv[1]);
+		for (int i = 1; i < argc; i++)
+		{
+			if atoi(argv[i] < 0)
+			{
+				print
+				return (0);
+			cents += atoi(argv[1]);
 		
 		while (cents > 0)
 		{
